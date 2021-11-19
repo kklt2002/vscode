@@ -22,6 +22,7 @@ const bootstrap = require('./bootstrap');
 const bootstrapNode = require('./bootstrap-node');
 const { getUserDataPath } = require('./vs/platform/environment/node/userDataPath');
 /** @type {Partial<IProductConfiguration>} */
+// 应用程序信息配置文件
 const product = require('../product.json');
 const { app, protocol, crashReporter } = require('electron');
 
